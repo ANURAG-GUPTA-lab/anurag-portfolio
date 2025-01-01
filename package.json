@@ -1,7 +1,11 @@
 {
+  "name": "anurag-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && touch out/.nojekyll",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   }
