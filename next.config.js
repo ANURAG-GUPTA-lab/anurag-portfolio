@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/anurag-portfolio',
-  assetPrefix: '/anurag-portfolio/',
+  // Remove basePath and assetPrefix
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
