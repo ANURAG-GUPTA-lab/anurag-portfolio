@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Remove basePath and assetPrefix
+  basePath: '/anurag-portfolio',
+  assetPrefix: '/anurag-portfolio/',
   trailingSlash: true,
 }
 
